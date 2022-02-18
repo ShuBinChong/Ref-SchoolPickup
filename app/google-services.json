@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "963625548944",
+    "firebase_url": "https://school-pickup-72181.firebaseio.com",
+    "project_id": "school-pickup-72181",
+    "storage_bucket": "school-pickup-72181.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963625548944:android:8be255a7ffdb21d7b9ec15",
+        "android_client_info": {
+          "package_name": "com.example.schoolpickup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963625548944-au77lctsbqmbiqa2n8185qtgqovflbpr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf_PcZ7ZgQxIyIt30prVqGpaEQfSUiBfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963625548944-au77lctsbqmbiqa2n8185qtgqovflbpr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

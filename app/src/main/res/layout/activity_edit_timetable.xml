@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".EditTimetable">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#73B4C8"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:fontFamily="monospace"
+            android:text="School Pickup"
+            android:textColor="#32414B"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:paddingLeft="12dp"
+                android:text="Edit Timetable 1 (Standard 1-3):"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/monday1"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="12dp"
+                android:ems="10"
+                android:hint="Monday"
+                android:textAlignment="center"
+                android:inputType="text"
+                android:textSize="24sp"/>
+
+            <EditText
+                android:id="@+id/tuesday1"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="12dp"
+                android:ems="10"
+                android:hint="Tuesday"
+                android:textAlignment="center"
+                android:inputType="text"
+                android:textSize="24sp"/>
+
+            <EditText
+                android:id="@+id/wednesday1"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="12dp"
+                android:ems="10"
+                android:hint="Wednesday"
+                android:textAlignment="center"
+                android:inputType="text"
+                android:textSize="24sp"/>
+
+            <EditText
+                android:id="@+id/thursday1"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="12dp"
+                android:ems="10"
+                android:hint="Thursday"
+                android:textAlignment="center"
+                android:inputType="text"
+                android:textSize="24sp"/>
+
+            <EditText
+                android:id="@+id/friday1"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="12dp"
+                android:ems="10"
+                android:hint="Friday"
+                android:textAlignment="center"
+                android:inputType="text"
+                android:textSize="24sp"/>
+
+            <Button
+            android:id="@+id/confirmBtn1"
+            android:layout_width="271dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="monospace"
+            android:text="Confirm"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:backgroundTint="#18488C"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:paddingLeft="12dp"
+                android:text="Edit Timetable 2 (Standard 4-6):"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/monday2"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="12dp"
+                android:ems="10"
+                android:hint="Monday"
+                android:textAlignment="center"
+                android:inputType="text"
+                android:textSize="24sp"/>
+
+            <EditText
+                android:id="@+id/tuesday2"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="12dp"
+                android:ems="10"
+                android:hint="Tuesday"
+                android:textAlignment="center"
+                android:inputType="text"
+                android:textSize="24sp"/>
+
+            <EditText
+                android:id="@+id/wednesday2"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="12dp"
+                android:ems="10"
+                android:hint="Wednesday"
+                android:textAlignment="center"
+                android:inputType="text"
+                android:textSize="24sp"/>
+
+            <EditText
+                android:id="@+id/thursday2"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="12dp"
+                android:ems="10"
+                android:hint="Thursday"
+                android:textAlignment="center"
+                android:inputType="text"
+                android:textSize="24sp"/>
+
+            <EditText
+                android:id="@+id/friday2"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="12dp"
+                android:ems="10"
+                android:hint="Friday"
+                android:textAlignment="center"
+                android:inputType="text"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/confirmBtn2"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:text="Confirm"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:backgroundTint="#18488C"/>
+
+            <Button
+                android:id="@+id/returnBtn"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="monospace"
+                android:text="Return"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:backgroundTint="#18488C"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
